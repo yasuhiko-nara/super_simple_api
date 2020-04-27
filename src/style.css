@@ -1,0 +1,30 @@
+canvas {
+  width: 500px;
+  height: 700px;
+}
+
+div.container {
+  display: flex;
+  /* flex-direction: row; */
+  flex-flow: row nowrap;
+  align-content: stretch;
+  justify-content: space-around;
+}
+/* div.output {
+  background-color: grey;
+} */
+div.title {
+  background-color: greenyellow;
+}
+div.get {
+  background-color: yellow;
+}
+div.post {
+  background-color: yellow;
+}
+div.delete {
+  background-color: yellow;
+}
+div.patch {
+  background-color: yellow;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>my first project</title>
+  </head>
+
+  <body>
+    <div class="title">SUPER SIMPLE DataBase of WHO likes WHAT</div>
+    <br />
+    <div class="container">
+      <div class="input">
+        <div class="post">
+          <div>
+            <p>POST: input who to post like</p>
+            <textarea class="post name"></textarea>
+            <p>POST: input what he/she likes</p>
+            <textarea class="post like"></textarea>
+          </div>
+          <button class="post">click for POST</button>
+        </div>
+        <br />
+
+        <div class="get">
+          <div>
+            <p>GET: input who to serch</p>
+            <textarea class="get"></textarea>
+          </div>
+          <button class="get">click for GET</button>
+        </div>
+        <br />
+
+        <div class="delete">
+          <div>
+            <p>DELETE: input who to delete</p>
+            <textarea class="delete"></textarea>
+          </div>
+          <button class="delete">click for DELETE</button>
+        </div>
+        <br />
+
+        <div class="patch">
+          <div>
+            <p>PATCH: input who to modify</p>
+            <textarea class="patch name"></textarea>
+            <br />
+            <p>PATCH: input what he/she unlikes</p>
+            <textarea class="patch unlike"></textarea>
+          </div>
+          <button class="patch">click for PATCH</button>
+        </div>
+      </div>
+      <div class="output">
+        <canvas></canvas>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
